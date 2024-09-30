@@ -1,0 +1,124 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Light cream background */
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.clock {
+            font-size: 3em;
+            color: #333;
+            background-color: #f4f4f4;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+        }
+
+/* Header styling */
+header {
+    background: #990000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    background: #999000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button:hover {
+    background: #004494;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 5px;
+    }
+
+    nav button {
+        padding: 10px;
+        font-size: 14px;
+        margin: 3px;
+    }
+
+    /* Adjust table for smaller screens */
+    table, th, td {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    /* Make tables scrollable horizontally on smaller screens */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* Make the entire page fit within smaller screens */
+    .container {
+        padding: 10px;
+    }
+
+    /* For very small screens, decrease padding */
+    th, td {
+        padding: 4px;
+    }
+
+    /* Reduce button size for small screens */
+    nav button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    /* Center text for readability on small devices */
+    th, td {
+        text-align: center;
+    }
+}

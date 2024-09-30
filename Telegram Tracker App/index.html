@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Airdrop Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Airdrop Tracker</h1>
+            <nav>
+                <button onclick="showTab('home')">Home</button>
+                <button onclick="showTab('all-opportunities')">All Opportunities</button>
+                <button onclick="showTab('currently-farming')">Currently Farming</button>
+                <button onclick="showTab('not-farming')">Not Currently Farming</button>
+            </nav>
+        </header>
+
+        <div id="home" class="tab-content">
+            <h2>Welcome to the Airdrop Tracker!</h2>
+            <p>Track your airdrop opportunities and see what you are currently farming.</p>
+			<p> If you like what we're doing, please feel free to donate to the cause. we're a small team of people working on something which we feel will genuinely benefit the airdropping community:</p>
+			<p> EVM: 0xa174718a4fb396d802ac11b9b68a24e124df1d81 </p>
+			<p> TON: 
+			
+        </div>
+
+        <div id="all-opportunities" class="tab-content hidden">
+            <h2>Telegram Opportunities</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Playing</th>
+                        <th>App Name</th>
+                        <th>Tier</th>
+                        <th>Link</th>
+                        <th>Daily Task</th>
+                        <th>Reset Time</th>
+                        <th>Notes</th>
+                        <th>Airdrop Info</th>
+                        <th>Desktop/Mobile</th>
+                    </tr>
+                </thead>
+<tbody id="opportunity-table-body">
+    <!-- Existing rows with onchange event added -->
+	<tr>
+        <td><input type="checkbox" onchange="updateTables()" /></td>
+        <td>Blum</td>
+        <td>5</td>
+        <td><a href="https://t.me/BlumCryptoBot/app?startapp=ref_0O8oRw8yHW">Link to Blum</a></td>
+        <td>Daily Streak</td>
+        <td>08:00</td>
+        <td></td>
+        <td>Information about Blum</td>
+        <td>Both</td>
+    </tr>
+	<tr>
+        <td><input type="checkbox" onchange="updateTables()" /></td>
+        <td>Sonic</td>
+        <td>5</td>
+        <td><a href="sonic.html">Link to Sonic Guide</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+	  <tr>
+		<td><input type="checkbox" onchange="updateTables()" /></td>
+		<td>Catizen</td>
+		<td>5</td>
+		<td><a href="https://t.me/catizenbot/gameapp?startapp">Link to Catizen</a></td>
+		<td>Multiple Daily</td>
+		<td></td>
+		<td>Season 1 completed</td>
+		<td></td>
+		<td>Desktop & Mobile</td>
+	</tr>
+	
+    <tr>
+	<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Notcoin / Lost Dogs / Not Pixel</td>
+    <td></td>
+    <td><a href="https://t.me/notpixel/app?startapp=f1713637758">Link to Notcoin / Lost Dogs / Not Pixel</a></td>
+    <td>No Daily</td>
+    <td>Daily at 11am UTC</td>
+    <td>Notcoin & Lost Dogs are finished. Not Pixel starts soon. All built by/promoted by the Notcoin team in their ecosystem</td>
+    <td></td>
+    <td>Both</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>YesCoin</td>
+    <td></td>
+    <td><a href="https://t.me/theYescoin_bot/Yescoin?startapp=U0kPI0">Link to YesCoin</a></td>
+    <td>Daily Streak</td>
+    <td>Daily at 4pm UTC</td>
+    <td></td>
+    <td></td>
+    <td>Both</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>TON Station</td>
+    <td></td>
+    <td><a href="https://t.me/tonstationgames_bot/app?startapp=ref_86urmeqqycv7zbuaa6nlza">Link to TON Station</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td>Mining ends Oct 4. Backed by Sidus Heroes, SuperVerse & EllioTrades</td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Dogs (Finished)</td>
+    <td></td>
+    <td><a href="https://t.me/dogshouse_bot/join?startapp=Il41GflfTwCQLayy-XcaRA">Link to Dogs (Finished)</a></td>
+    <td>Completed</td>
+    <td></td>
+    <td>Claim if you haven’t already</td>
+    <td></td>
+    <td>Both</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>X Empire</td>
+    <td></td>
+    <td><a href="https://t.me/empirebot/game?startapp=hero1713637758">Link to X Empire</a></td>
+    <td>Multiple Daily</td>
+    <td>Daily at 7am UTC</td>
+    <td>Sept 30 - final day of mining</td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Egg Drop</td>
+    <td></td>
+    <td><a href="https://t.me/EggDrop_GombleBot/app?startapp=e5d2fb8ba5f74884854b2717e5a0c988">Link to Egg Drop</a></td>
+    <td>Multiple Daily</td>
+    <td></td>
+    <td>Made by Gomble Games</td>
+    <td></td>
+    <td>Both</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Hamster Kombat</td>
+    <td></td>
+    <td><a href="https://t.me/hamster_kombAt_bot/start?startapp=kentId1713637758">Link to Hamster Kombat</a></td>
+    <td>Multiple Daily</td>
+    <td></td>
+    <td>Sept 26 - TGE & Airdrop Launching on Binance, OKX, Bybit, Bitget, Gate.io, BingX</td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>TON Kombat</td>
+    <td></td>
+    <td><a href="https://t.me/Ton_kombat_bot/app?startapp=1713637758">Link to TON Kombat</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Bits</td>
+    <td></td>
+    <td><a href="https://t.me/BitsTonboxBot/BitsAirdrops?startapp=GY6AaWbZaiqCsKJhWFacux">Link to Bits</a></td>
+    <td>Daily Streak</td>
+    <td>Game only started on Sept 2nd, very new</td>
+    <td>Airdrop of USDT once per month, starting end of September. Listing of token on Dec 24</td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>TapSwap</td>
+    <td></td>
+    <td><a href="https://t.me/tapswap_mirror_1_bot?start=r_1713637758">Link to TapSwap</a></td>
+    <td>No Daily</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Major</td>
+    <td></td>
+    <td><a href="https://t.me/major/start?startapp=1713637758">Link to Major</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Kuroro Ranch</td>
+    <td></td>
+    <td><a href="https://t.me/KuroroRanchBot/ranch?startapp=ref-D95120C3">Link to Kuroro Ranch</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Magic Muffins</td>
+    <td></td>
+    <td><a href="https://t.me/magicmuffins_bot?start=r_F83FTS">Link to Magic Muffins</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Birds</td>
+    <td></td>
+    <td><a href="https://t.me/birdx2_bot/birdx?startapp=1713637758">Link to Birds</a></td>
+    <td>Daily Tasks</td>
+    <td>Worms appear 6 times per day: 12am, 4am, 12pm, 4pm, and 8pm (all UTC). Worms must be claimed within 90 minutes of these times.</td>
+    <td>Sept 22 - Phase 1 ends</td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Bums</td>
+    <td></td>
+    <td><a href="https://t.me/bums/app?startapp=ref_9dWT5qlM">Link to Bums</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td>Linked with Corn Battles & Bits in some way</td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Rocky Rabbit</td>
+    <td></td>
+    <td><a href="https://t.me/rocky_rabbit_bot/play?startapp=frId1713637758">Link to Rocky Rabbit</a></td>
+    <td>Multiple Daily</td>
+    <td></td>
+    <td>Lists on Sept 23 - MEXC and BingX</td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>OKX Racer</td>
+    <td></td>
+    <td><a href="https://t.me/OKX_official_bot/OKX_Racer?startapp=linkCode_113798275">Link to OKX Racer</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Banana</td>
+    <td></td>
+    <td><a href="https://t.me/OfficialBananaBot/banana?startapp=referral=UB282J1">Link to Banana</a></td>
+    <td>No Daily</td>
+    <td>4 hours with boost</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Tomarket</td>
+    <td></td>
+    <td><a href="https://t.me/Tomarket_ai_bot/app?startapp=0000ggHn">Link to Tomarket</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td>Sept 2 - snapshot</td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Dogiators</td>
+    <td></td>
+    <td><a href="https://t.me/Dogiators_bot/game?startapp=nHaFWeok79vc12nI">Link to Dogiators</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td>Only just started in early Sept. Worth jumping on, looks promising</td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>MemeFi</td>
+    <td></td>
+    <td><a href="https://t.me/memefi_coin_bot?start=r_9e7dd8e2ab">Link to MemeFi</a></td>
+    <td>Daily Tasks</td>
+    <td>All codes inside</td>
+    <td>Oct 9 - Airdrop expected</td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>1win</td>
+    <td></td>
+    <td><a href="http://t.me/token1win_bot/start?startapp=refId1713637758">Link to 1win</a></td>
+    <td>Daily Streak</td>
+    <td>Daily at 12am UTC</td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Gemz</td>
+    <td></td>
+    <td><a href="https://t.me/gemzcoin_bOt/tap?startapp=1ryFSg-UOH1vlGNUtAsd7gU">Link to Gemz</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td>Built by Zynga co-founder. The company behind FarmVille, etc</td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Genopets: Pixelton Arena</td>
+    <td></td>
+    <td><a href="https://t.me/genopets_pixelton_bot/arena?startapp=referrer_2rvDgybpQ">Link to Genopets: Pixelton Arena</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Cats</td>
+    <td></td>
+    <td><a href="t.me/catsgang_bot/join?startapp=771B3mQc0A3M6xsHCcixL">Link to Cats</a></td>
+    <td>Daily Streak</td>
+    <td>Occasional quests</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Seed app</td>
+    <td></td>
+    <td><a href="t.me/seed_coin_bot/app?startapp=1713637758">Link to Seed app</a></td>
+    <td>Multiple Daily</td>
+    <td>3-6 hours per worm, 12 hours to fill farm, bird hunt 12 hours</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Hrum</td>
+    <td></td>
+    <td><a href="https://t.me/hrummebot/game?startapp=ref1713637758">Link to Hrum</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td>Backed by X Empire</td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Bombie</td>
+    <td></td>
+    <td><a href="https://t.me/catizenbot/bombie?startapp=g_1002_1817058">Link to Bombie</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+<td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Vanilla Finance</td>
+    <td></td>
+    <td><a href="https://t.me/Vanilla_Finance_Bot/Vanillafinance?startapp=inviteId10275266">Link to Vanilla Finance</a></td>
+    <td>Daily Streak</td>
+    <td>Can actively farm this almost 24/7. Frequency isn’t really relevant here</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Yum Party</td>
+    <td></td>
+    <td><a href="https://t.me/yumparty_bot/game?startapp=6fd75e8c-b065-4e8d-a0e9-e21d4735d1b0">Link to Yum Party</a></td>
+    <td>Daily Streak</td>
+    <td>Former GM of Candy Crush is a backer. Former UX/UI designer of Fortnite is on the team.</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Dream Coin</td>
+    <td></td>
+    <td><a href="https://t.me/DreamCoinOfficial_bot?start=1713637758">Link to Dream Coin</a></td>
+    <td>Daily Streak</td>
+    <td>Backed by Notcoin, developed by the same people that made Coinmaster (100m+ downloads on app store)</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>CITY Holder</td>
+    <td></td>
+    <td><a href="https://t.me/cityholder/game?startapp=1713637758">Link to CITY Holder</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Afterland</td>
+    <td></td>
+    <td><a href="https://t.me/Afterland_Bot/app?startapp=2n537n">Link to Afterland</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>W-Coin</td>
+    <td></td>
+    <td><a href="https://t.me/wcoin_tapbot?start=MTcxMzYzNzc1OA==">Link to W-Coin</a></td>
+    <td>Daily Streak</td>
+    <td>Daily at 12am UTC</td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Vertus</td>
+    <td></td>
+    <td><a href="https://t.me/vertus_app_bot/app?startapp=1713637758">Link to Vertus</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Clayton</td>
+    <td></td>
+    <td><a href="https://t.me/claytoncoinbot/game?startapp=1713637758">Link to Clayton</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>GraphDex</td>
+    <td></td>
+    <td><a href="https://t.me/graph_dex_bot?start=1713637758">Link to GraphDex</a></td>
+    <td>Daily Tasks</td>
+    <td>Occasionally has a section you need to claim every 4 hours instead</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Nomis</td>
+    <td></td>
+    <td><a href="https://t.me/NomisAppBot/app?startapp=ref_VLkFLqB1OE">Link to Nomis</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>$RACE to Billion</td>
+    <td></td>
+    <td><a href="https://t.me/Racememe_bot?start=r_1713637758">Link to $RACE to Billion</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>GAMEE / WatCoin</td>
+    <td></td>
+    <td><a href="https://t.me/gamee/start?startapp=ref_1713637758">Link to GAMEE / WatCoin</a></td>
+    <td>Completed</td>
+    <td>Backed by GAMEE, owned by Animoca, supported by Binance Labs & Ton Ventures</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Booms</td>
+    <td></td>
+    <td><a href="https://t.me/booms_io_bot/start?startapp=bro1713637758">Link to Booms</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Time Farm</td>
+    <td></td>
+    <td><a href="https://t.me/TimeFarmCryptoBot?start=19SvcOr81ZICpJX5O">Link to Time Farm</a></td>
+    <td>Daily Streak</td>
+    <td>Upgrade your sand clock when you’ve got enough coins. Uses in-game currency and gives you boosts</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Coinhunters</td>
+    <td></td>
+    <td><a href="https://t.me/CoinHuntersGameBot/app?startapp=hunter_ac2da5cd72cf1be83af7a87509ce4343">Link to Coinhunters</a></td>
+    <td>Daily Streak</td>
+    <td>TON Station exclusive</td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Hexn.io</td>
+    <td></td>
+    <td><a href="https://t.me/hexn_bot/app?startapp=48767bfb-9585-466d-b699-9408164c4d25">Link to Hexn.io</a></td>
+    <td>Daily Streak</td>
+    <td>Daily at 6am UTC</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Tapcoins</td>
+    <td></td>
+    <td><a href="https://t.me/tapcoinsbot/app?startapp=ref_WJG3yQ">Link to Tapcoins</a></td>
+    <td>Daily Streak</td>
+    <td>Claiming now open, claim daily</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>PocketFi</td>
+    <td></td>
+    <td><a href="https://t.me/pocketfi_bot/Mining?startapp=1713637758">Link to PocketFi</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Midas Yielder</td>
+    <td></td>
+    <td><a href="https://t.me/MidasRWA_bot/app?startapp=ref_de5617d6-6c89-4167-a67a-9f78bd19b7fc">Link to Midas Yielder</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>TapAdventure</td>
+    <td></td>
+    <td><a href="https://t.me/pixelheroes_io_bot?start=1713637758">Link to TapAdventure</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>FOLK</td>
+    <td></td>
+    <td><a href="https://t.me/folklolgame_bot/webapp?startapp=1713637758">Link to FOLK</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Corn Battles</td>
+    <td></td>
+    <td><a href="https://t.me/Corn/PlayCornBattles?startapp=1713637758">Link to Corn Battles</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>CEX.io</td>
+    <td></td>
+    <td><a href="https://t.me/cexio_tap_bot?start=1723129079091121">Link to CEX.io</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Memeland</td>
+    <td></td>
+    <td><a href="https://t.me/metaland_bot/click?startapp=1713637758">Link to Memeland</a></td>
+    <td>No Daily</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Pixel X Farm</td>
+    <td></td>
+    <td><a href="https://t.me/CoinHuntersGameBot/app?startapp=hunter_ac2da5cd72cf1be83af7a87509ce4343">Link to Pixel X Farm</a></td>
+    <td>Multiple Daily</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>CryptoRank</td>
+    <td></td>
+    <td><a href="https://t.me/cryptorank_app_bot/points?startapp=ref_1713637758_">Link to CryptoRank</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Gatto</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Personally don’t find it that fun yet, seems to be highly rated amongst most, especially in Russia.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>BabyDoge Paws</td>
+    <td></td>
+    <td><a href="https://t.me/BabyDogePAWS_Bot?start=r_1713637758">Link to BabyDoge Paws</a></td>
+    <td>Daily Streak</td>
+    <td>Backed by Binance</td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Cyber Finance</td>
+    <td></td>
+    <td><a href="https://t.me/CyberFinanceBot/game?startapp=cj1pempPN05hbUxVSUwmdT1yZWY=">Link to Cyber Finance</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Coub</td>
+    <td></td>
+    <td><a href="https://t.me/coub/app?startapp=coub__marker_18521334">Link to Coub</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Human</td>
+    <td></td>
+    <td><a href="https://t.me/imhmnbot/invite?startapp=1713637758">Link to Human</a></td>
+    <td>No Daily</td>
+    <td>Invite only entry at this stage</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Dogs For The Founder</td>
+    <td></td>
+    <td><a href="https://t.me/dogs_for_the_founder_bot/start?startapp=invite-1713637758-1726243456593">Link to Dogs For The Founder</a></td>
+    <td>Daily Streak</td>
+    <td>Built by Gala Games. Play in tandem with other Gala Games for best chance of an airdrop</td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>PixelTap</td>
+    <td></td>
+    <td><a href="https://t.me/pixelversexyzbot?start=1713637758">Link to PixelTap</a></td>
+    <td>Multiple Daily</td>
+    <td>Daily at 12am UTC</td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Goats</td>
+    <td></td>
+    <td><a href="https://t.me/realgoats_bot/run?startapp=b4198513-4681-4922-aecf-cb6d333fe96e">Link to Goats</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>TapGoat</td>
+    <td></td>
+    <td><a href="https://tapgo.at/l/VEQzZc">Link to TapGoat</a></td>
+    <td>No Daily</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Treasure Tapper</td>
+    <td></td>
+    <td><a href="https://t.me/treasure_tapper_bot/start?startapp=invite-1713637758-1724208535158-invite">Link to Treasure Tapper</a></td>
+    <td>Multiple Daily</td>
+    <td>Built by Gala Games. Play in tandem with other Gala Games for best chance of an airdrop</td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>To The Moon</td>
+    <td></td>
+    <td><a href="https://t.me/moon_land_bot/to_the_moon?startapp=BIXU8FF">Link to To The Moon</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Pigs</td>
+    <td></td>
+    <td><a href="https://t.me/PigshouseBot?start=1713637758">Link to Pigs</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>GALA Coin</td>
+    <td></td>
+    <td><a href="https://t.me/GalaCoin_bot/app?startapp=ref_NCAuJuAv">Link to GALA Coin</a></td>
+    <td>Daily Streak</td>
+    <td>Built by Gala Games. Play in tandem with other Gala Games for best chance of an airdrop</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Cats & Dogs</td>
+    <td></td>
+    <td><a href="https://t.me/catsdogs_game_bot/join?startapp=1713637758">Link to Cats & Dogs</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Soon Runner</td>
+    <td></td>
+    <td><a href="https://t.me/tonstationgames_bot/app?start=ref_86urmeqqycv7zbuaa6nlza">Link to Soon Runner</a></td>
+    <td>No Daily</td>
+    <td>No link available specifically for this game. Go into TON Station and go to the launcher to find it</td>
+    <td></td>
+    <td></td>
+    <td>Exclusive to TON Station</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Music Coin</td>
+    <td></td>
+    <td><a href="https://t.me/GalaMusicMinerEarnTREZBot/start?startapp=invite-1713637758-1726243229628">Link to Music Coin</a></td>
+    <td>Daily Streak</td>
+    <td>Built by Gala Games. Play in tandem with other Gala Games for best chance of an airdrop</td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>B 💎
+    <td></td>
+    <td><a href="https://t.me/b_usersbot/join?startapp=ref-78cJ4ZofdYgsyv5an9mTaC">Link to B 💎</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Teletop</td>
+    <td></td>
+    <td><a href="https://t.me/the_teletop_bot/app?startapp=f75JG9DBk0B1">Link to Teletop</a></td>
+    <td>Daily Streak</td>
+    <td>Daily at 12am UTC</td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>RichDesk</td>
+    <td></td>
+    <td><a href="https://t.me/RichDeskBot/start?startapp=id1713637758">Link to RichDesk</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>KuCoin</td>
+    <td></td>
+    <td><a href="https://t.me/xkucoinbot/kucoinminiapp?startapp=cm91dGU9JTJGdGFwLWdhbWUlM0ZpbnZpdGVyVXNlcklkJTNEMTcxMzYzNzc1OCUyNnJjb2RlJTNEUUJTSEc3OFM=">Link to KuCoin</a></td>
+    <td>No Daily</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>The Rocket</td>
+    <td></td>
+    <td><a href="https://t.me/The_Rocket_bot?start=r_1713637758">Link to The Rocket</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Meta Racing</td>
+    <td></td>
+    <td><a href="https://t.me/metaracinggame_bot/app?startapp=bonus_34fhzf3tnm">Link to Meta Racing</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Hipo Gang</td>
+    <td></td>
+    <td><a href="https://t.me/HipoGangBot/join?startapp=1713637758">Link to Hipo Gang</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Owls</td>
+    <td></td>
+    <td><a href="https://t.me/owlsonton_bot?start=1713637758">Link to Owls</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Duck</td>
+    <td></td>
+    <td><a href="https://t.me/duckscoop_bot/app?startapp=XQ1PQLR7Eg">Link to Duck</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>SnakeLite</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>White Bunny</td>
+    <td></td>
+    <td><a href="https://t.me/whitebunnywtf_bot?start=ref66b2bfeefdec3259813be6b9">Link to White Bunny</a></td>
+    <td>Multiple Daily</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Baboon</td>
+    <td></td>
+    <td><a href="https://t.me/TheBaboon_Bot?start=r_1713637758">Link to Baboon</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>BeraSig Wallet</td>
+    <td></td>
+    <td><a href="https://t.me/BerasigWallet_bot/BeraBeeCatcher?startapp=66bfffb4fe9cc9a09ae90b59">Link to BeraSig Wallet</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Money Dogs</td>
+    <td></td>
+    <td><a href="https://t.me/money_dogs_bot/money_dogs?startapp=HtwmtNyf">Link to Money Dogs</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Yumify</td>
+    <td></td>
+    <td><a href="https://t.me/Yumify_Bot?start=1713637758">Link to Yumify</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Dejen Dog</td>
+    <td></td>
+    <td><a href="https://t.me/DejenDogBot/djdog?startapp=88599e6b">Link to Dejen Dog</a></td>
+    <td>Daily Tasks</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Desktop & Mobile</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>TagCGPT</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Mobile Only</td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>TONIX</td>
+    <td></td>
+    <td><a href="https://t.me/Tonix_Mining_Bot?start=1713637758">Link to TONIX</a></td>
+    <td>Daily Streak</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Flappy Bird</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>TBC. Seems promising but very early days. Lots of negativity surrounding this currently.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr><td><input type="checkbox" onchange="updateTables()" /></td>
+    <td>Snapster</td>
+    <td></td>
+    <td><a href="https://t.me/snapster_bot?start=ref_Nd-3IDYSZaW3oI">Link to Snapster</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</tbody>
+            </table>
+        </div>
+
+        <div id="currently-farming" class="tab-content hidden">
+            <h2>Currently Farming</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>App Name</th>
+                        <th>Tier</th>
+                        <th>Link</th>
+                        <th>Daily?</th>
+                        <th>Reset Time</th>
+                        <th>Notes</th>
+                        <th>Airdrop Info</th>
+                        <th>Device</th>
+                    </tr>
+                </thead>
+                <tbody id="currently-farming-body">
+                    <!-- Currently farming rows will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="not-farming" class="tab-content hidden">
+            <h2>Not Currently Farming</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>App Name</th>
+                        <th>Tier</th>
+                        <th>Link</th>
+                        <th>Daily?</th>
+                        <th>Reset Time</th>
+                        <th>Notes</th>
+                        <th>Airdrop Info</th>
+                        <th>Device</th>
+                    </tr>
+                </thead>
+                <tbody id="not-farming-body">
+                    <!-- Not farming rows will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
